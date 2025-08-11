@@ -3,10 +3,10 @@
         <div class="bg-black text-white py-8">
             <div class="container mx-auto px-4">
                 <div class="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-8 font-poppins">
-                    <div>
+                    <div class="space-y-4 font-poppins text-white flex flex-col items-center md:ite justify-center md:justify-normal">
                         <img src="/images/logo.png" width="200" height="200" alt="">
                     </div>
-                    <div class="space-y-4">
+                    <div class="space-y-4 font-poppins text-white flex flex-col items-center md:ite justify-center md:justify-normal">
                         <h2 class="text-xl font-bold mb-4">ADRESSE</h2>
                         <p>CAMEROUN :</p>
                         <p>DOUALA, BALI EN FACE ENTRELAC</p>
@@ -16,7 +16,7 @@
                         <p>Instagram: <a href="https://www.instagram.com/jerrykamgang" class="underline">@dimfitness</a>
                         </p>
                     </div>
-                    <div class="space-y-4 font-poppins text-white flex flex-col">
+                    <div class="space-y-4 font-poppins text-white flex flex-col items-center md:ite justify-center md:justify-normal">
                         <h2 class="text-xl font-bold uppercase">Nos Liens</h2>
                         <router-link to="/" class="text-base font-semibold hover:text-red-700">Formation
                             FBWA</router-link>
@@ -27,7 +27,7 @@
                         <router-link to="/" class="text-base font-semibold hover:text-red-700">contact</router-link>
                         <router-link to="/" class="text-base font-semibold hover:text-red-700">Qui suis-je</router-link>
                     </div>
-                    <div class="space-y-4 font-poppins text-white flex flex-col">
+                    <div class="space-y-4 font-poppins text-white flex flex-col items-center md:ite justify-center md:justify-normal">
                         <h2 class="text-xl font-bold uppercase">Nos Reseaux</h2>
                         <a href="https://www.facebook.com/nomDuCompte" target="_blank" rel="noopener noreferrer"> <i
                                 class="fab fa-facebook"></i> Dimfitness</a>

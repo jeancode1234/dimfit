@@ -7,15 +7,15 @@
             <div
                 class=" inset-0 w-full py-8 lg:py-12 flex items-center justify-center h-full bg-gradient-to-b from-black/80 to-[#0E2F51]/50 bg-[#0E2F51]/60">
                 <div class="w-full lg:w-5/6 h-auto space-y-4 px-4">
-                    <h1 class="text-4xl xl:text-6xl text-white font-extrabold text-center  font-poppins">TÉMOIGNAGES
+                    <h1 data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-up" class="text-2xl sm:text-4xl xl:text-6xl text-white font-extrabold text-center  font-poppins">TÉMOIGNAGES
                     </h1>
-                    <div class="w-3/6 h-[1px] bg-red-600"></div>
-                    <p class="text-center text-gray-400 font-poppins">Ce que pensent les membres de la Formation FBWA
+                    <div data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-right" class="w-5/6 md:w-3/6 h-[1px] bg-red-600"></div>
+                    <p data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-up" class="text-center text-gray-400 font-poppins">Ce que pensent les membres de la Formation FBWA
                     </p>
-                    <p class="text-center text-gray-400 font-poppins">Cliquez sur le bouton <strong
-                            class="uppercase text-white font-bold"> Rejoindre la formation</strong></p>
+                    <p data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="zoom-in" class="text-center text-gray-400 font-poppins text-sm md:text-lg">Cliquez sur le bouton <strong
+                            class="uppercase text-white font-bold "> Rejoindre la formation</strong></p>
                     <div class="w-full flex justify-center">
-                        <a href="https://wa.me/+237695863845"
+                        <a data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="zoom-in" href="https://wa.me/+237695863845"
                             class="bg-gradient-to-b to-black/60 from-[#E30065] font-poppins text-white font-bold py-2 px-4 rounded-tl-2xl rounded-br-2xl"
                             target="_blank" rel="noopener noreferrer">
                             Rejoindre la formation
@@ -29,22 +29,25 @@
 
         </div>
         <div class="w-full bg-black/80">
-            <div class="w-5/6 mx-auto flex flex-col justify-center items-center space-y-2 py-4">
-                <h1 class="text-3xl text-white font-poppins font-extrabold uppercase">La promotion actuelle finit
+            <div class="w-full lg:w-5/6 lg:mx-auto flex flex-col justify-center items-center space-y-2 pt-4 lg:pt-8">
+                <h1 class="text-sm sm:text-2xl md:text-2xl text-white font-poppins font-extrabold uppercase">La
+                    promotion actuelle finit
                     dans
                 </h1>
-                <div class=" flex justify-center items-center gap-4 font-bold text-white">
+                <div class=" flex flex-wrap justify-center items-center gap-2 sm:gap-4 font-bold text-white">
                     <div v-for="(value, label) in countdown" :key="label"
                         class="text-center bg-blue-700/30  rounded-br-2xl rounded-tl-2xl space-y-2 px-4 py-4">
-                        <div class="text-xl bg-blue-800/20 rounded-br-2xl rounded-tl-2xl px-2 py-6">{{ value }}
+                        <div
+                            class="text-lg sm:text-xl lg:text-2xl bg-blue-800/20 rounded-br-2xl rounded-tl-2xl px-2 py-6">
+                            {{ value }}
                         </div>
-                        <div class="text-sm uppercase tracking-wide">{{ label }}</div>
+                        <div class="text-sm lg:text-lg uppercase tracking-wide">{{ label }}</div>
                     </div>
                 </div>
             </div>
 
             <!-- Galerie d'images -->
-            <div class="grid grid-cols-2 md:grid-cols-4 p-6 gap-2">
+            <div class="grid grid-cols-2 md:grid-cols-4 py-4 lg:p-6 gap-2">
                 <img v-for="(imag, index) in image" :key="index" :src="imag" data-aos="zoom-in" data-aos-delay="200"
                     data-aos-duration="1000" data-aos-easing="ease-in-out"
                     class="w-full h-80 object-cover cursor-pointer hover:opacity-80 transition"
@@ -65,8 +68,7 @@
                 </button>
 
                 <!-- Flèche gauche -->
-                <button class="absolute left-4 text-white text-4xl p-2 hover:bg-white/20 rounded-full"
-                    @click="prev">
+                <button class="absolute left-4 text-white text-4xl p-2 hover:bg-white/20 rounded-full" @click="prev">
                     ‹
                 </button>
 
@@ -77,8 +79,7 @@
                 </transition>
 
                 <!-- Flèche droite -->
-                <button class="absolute right-4 text-white text-4xl p-2 hover:bg-white/20 rounded-full"
-                    @click="next">
+                <button class="absolute right-4 text-white text-4xl p-2 hover:bg-white/20 rounded-full" @click="next">
                     ›
                 </button>
             </div>
@@ -113,7 +114,7 @@ export default {
                 MINUTES: "00",
                 SECONDES: "00",
             },
-            targetDate: new Date("2025-08-10T23:59:59"), // 🎯 date de fin de la promo
+            targetDate: new Date("2025-08-13T23:59:59"), // 🎯 date de fin de la promo
             timer: null,
             currentIndex: 0,
             images: [img, img1, img2],
@@ -148,7 +149,7 @@ export default {
                 };
                 return; // n'oublie pas de sortir
             }
-           
+
 
             const days = Math.floor(diff / (1000 * 60 * 60 * 24));
             const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
@@ -162,17 +163,17 @@ export default {
                 SECONDES: seconds.toString().padStart(2, "0"),
             };
         },
-         openModal(index) {
-                this.recentIndex = index;
-                this.isModalOpen = true;
-                document.body.style.overflow = "hidden"; // désactive le scroll en arrière-plan
-            },
-            closeModal() {
-                this.isModalOpen = false;
-                document.body.style.overflow = "";
-            },
+        openModal(index) {
+            this.recentIndex = index;
+            this.isModalOpen = true;
+            document.body.style.overflow = "hidden"; // désactive le scroll en arrière-plan
+        },
+        closeModal() {
+            this.isModalOpen = false;
+            document.body.style.overflow = "";
+        },
 
-             next() {
+        next() {
             this.recentIndex =
                 (this.recentIndex + 1) % this.images.length;
         },

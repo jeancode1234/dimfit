@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full p-4 bg-[#1C3045]">
+    <div class="w-full lg:p-4 bg-[#1C3045]">
 
         <!-- Galerie d'images -->
         <div class="grid grid-cols-2 md:grid-cols-4">

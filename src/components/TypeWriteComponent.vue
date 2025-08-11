@@ -1,6 +1,6 @@
 <template>
     <div class="">
-        <p class="text-3xl uppercase text-white font-semibold font-poppins text-center">{{ displayedText }}<span v-if="showCursor">|</span></p>
+        <p class="text-lg sm:text-xl lg:text-3xl uppercase text-white font-semibold font-poppins text-center">{{ displayedText }}<span v-if="showCursor">|</span></p>
 
     </div>
 </template>

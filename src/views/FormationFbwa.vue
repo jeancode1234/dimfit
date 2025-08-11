@@ -2,39 +2,38 @@
     <div class="">
         <div class="space-y-8 p-8 bg-[#0E2F51]">
 
-            <h1 class="text-center text-5xl font-bold font-poppins uppercase text-white">Formation FBWA</h1>
-            <p class="text-2xl uppercase text-white font-semibold font-poppins text-center"> mes stratégies sont <span
-                    class="text-[#E02454]">{{ displayedText }}</span><span v-if="showCursor">|</span></p>
-            <div class="w-full md:w-3/6 bg-[#E30065] h-[1px]"></div>
+            <h1 data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="text-center text-3xl lg:text-5xl font-bold font-poppins uppercase text-white">
+                Formation FBWA</h1>
+            <p class="text-lg lg:text-2xl uppercase text-white font-semibold font-poppins text-center"> mes stratégies
+                sont <span class="text-[#E02454]">{{ displayedText }}</span><span v-if="showCursor">|</span></p>
+            <div data-aos="fade-up" class="w-full md:w-3/6 bg-[#E30065] h-[1px]"></div>
         </div>
-        <div class="w-full px-4 h-[86vh] bg-[#0E2F51]">
+        <div data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-out"
+            class="w-full p-2 lg:px-4 h-[40vh] sm:h-[60vh] lg:h-[86vh] bg-[#0E2F51]">
             <div class="w-full overflow-hidden h-full rounded-3xl">
-
-                <iframe class="w-full h-full rounded-3xl"
-                    src="https://www.youtube.com/embed/NyxyB-FiQ2Y" frameborder="0"
+                <iframe class="w-full h-full rounded-3xl" src="https://www.youtube.com/embed/jQriN9_RpFg"
+                    frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
         </div>
-        <div class="w-full py-8 bg-black flex flex-col space-y-4 items-center justify-center">
-            <p class="text-gray-400 text-sm font-poppins">Cliquez sur le bouton <span
-                    class="uppercase text-lg font-semibold text-white">Rejoindre la formation</span></p>
+        <div class="w-full py-4 lg:-8 bg-black flex flex-col space-y-4 items-center justify-center">
+            <p data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="text-gray-400 text-sm font-poppins">Cliquez sur le bouton <span
+                    class="uppercase text-sm lg:text-lg font-semibold text-white">Rejoindre la formation</span></p>
             <div class="flex justify-center mt-8">
-                <a href="https://wa.me/+237695863845"
+                <a data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" href="https://wa.me/+237695863845"
                     class="bg-gradient-to-b to-black/60 from-[#E30065] font-poppins text-white font-bold py-2 px-4 rounded-tl-2xl rounded-br-2xl"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >
+                    target="_blank" rel="noopener noreferrer">
                     Rejoindre la formation
                 </a>
             </div>
         </div>
-        <DiaporamaComponent/>
-        <DiapoComponent/>
-        <PromoComponent/>
-        <Module/>
-        <TestifyComponent/>
-    
+        <DiaporamaComponent />
+        <DiapoComponent />
+        <PromoComponent />
+        <Module />
+        <TestifyComponent />
+
     </div>
 </template>
 
@@ -64,7 +63,7 @@ export default {
             pauseDelay: 1000,
         }
     },
-    components:{
+    components: {
         DiaporamaComponent,
         DiapoComponent,
         PromoComponent,

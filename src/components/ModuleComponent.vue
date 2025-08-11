@@ -2,30 +2,30 @@
     <div>
         <div class="w-full bg-cover bg-center h-auto" id="module">
             <div class="w-full  flex flex-col py-4 space-y-4 items-center justify-center">
-                <p class="text-gray-400 text-sm font-poppins">
-                    Cliquez sur le bouton <span class="uppercase text-lg font-semibold text-white">Rejoindre la
+                <p data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-up" class="text-gray-400 text-sm font-poppins">
+                    Cliquez sur le bouton <span class="uppercase text-sm md:text-lg font-semibold text-white">Rejoindre la
                         formation</span>
                 </p>
-                <a href="https://wa.me/+237695863845"
+                <a data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-up" href="https://wa.me/+237695863845"
                     class="bg-gradient-to-b to-black/60 from-[#E30065] font-poppins text-white font-bold py-2 px-4 rounded-tl-2xl rounded-br-2xl"
                     target="_blank" rel="noopener noreferrer">
                     Rejoindre la formation
                 </a>
-                <div class="w-full px-8 space-y-4">
-                    <div class="w-3/6 h-[2px] bg-[#E30065]"></div>
+                <div class="w-full sm:px-4 lg:px-8 space-y-4">
+                    <div data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-up" class="w-5/6 lg:w-3/6 h-[2px] bg-red-600"></div>
                 </div>
             </div>
             <div class="w-full space-y-4 text-white text-center font-poppins">
-                <h1 class="text-3xl font-bold ">LES MODULES</h1>
-                <p class="text-lg">18 heures de Formation pour vous apprendre à créer un véritable business en ligne et
+                <h1 data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-up" class="text-xl sm:text-2xl lg:text-3xl font-bold ">LES MODULES</h1>
+                <p data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-up" class="text-sm lg:text-lg">18 heures de Formation pour vous apprendre à créer un véritable business en ligne et
                     générer du trafic <br> qui convertir grâce à Facebook et Instagram.</p>
 
 
             </div>
             <div class="grid grid-cols-4 lg:grid-cols-8 grid-flow-row gap-8 w-full py-12">
-                <div v-for="(card,index) in cards" :key="index" class="col-span-4 ">
+                <div data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-up" v-for="(card,index) in cards" :key="index" class="col-span-4 ">
                     <div
-                        class="flex py-2 justify-center rounded-tr-[36px] items-center text-center w-44 text-lg uppercase bg-gradient-to-b to-black from-[#c7453b]  bg-[#3B1C4C] text-white font-poppins">
+                        class="flex py-2 justify-center rounded-tr-[36px] items-center text-center w-44 text-base md:text-lg uppercase bg-gradient-to-b to-black from-[#c7453b]  bg-[#3B1C4C] text-white font-poppins">
                         <router-link to="/" class="underline ">{{card.title1}}</router-link>
                     </div>
                     <div class=" w-full h-auto group ">
@@ -35,8 +35,8 @@
                             <!-- Face avant -->
                             <div
                                 class=" text-white w-full font-poppins h-auto bg-[#011B31]/60 p-6 flex flex-col  space-y-4">
-                                <h2 class="text-xl font-bold  uppercase">{{ card.subtitle1 }}</h2>
-                                <p class="text-sm">
+                                <h2 data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-up" class="text-lg md:text-xl font-bold  uppercase">{{ card.subtitle1 }}</h2>
+                                <p data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-up" class="text-sm">
                                    {{card.description1}}
                                 </p>
                                 <div class="py-2 w-full">

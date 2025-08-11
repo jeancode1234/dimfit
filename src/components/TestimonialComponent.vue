@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full py-10 px-4">
+    <div class="w-full py-10 px-4 lg:px-8">
         <div class="w-full grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4">
             <div v-for="(video, index) in videos" :key="index" data-aos="zoom-in" data-aos-delay="200"
                 data-aos-duration="1000" data-aos-easing="ease-in-out"

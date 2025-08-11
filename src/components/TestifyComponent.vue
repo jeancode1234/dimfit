@@ -1,17 +1,17 @@
 <template>
-    <div class="w-full py-4 px-4 bg-black">
+    <div class="w-full py-4 md:px-4 bg-black">
         <div class="w-full">
             <div class="w-5/6 lg:w-3/6 h-[1px] bg-red-600"></div>
             <div class="w-full space-y-4 py-4">
-                <h1 class="text-2xl font-poppins font-bold text-white text-center">TÉMOIGNAGES</h1>
-                <p class="text-center text-base text-white font-poppins">Ce que pensent les membres de la Formation FBWA
+                <h1 data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-up" class="text-2xl font-poppins font-bold text-white text-center">TÉMOIGNAGES</h1>
+                <p data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-up" class="text-center text-base text-white font-poppins">Ce que pensent les membres de la Formation FBWA
                 </p>
                 <div class="w-full  flex flex-col py-4 space-y-4 items-center justify-center">
-                    <p class="text-gray-400 text-sm font-poppins">
-                        Cliquez sur le bouton <span class="uppercase text-lg font-semibold text-white">Rejoindre la
+                    <p data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-up" class="text-gray-400 text-sm font-poppins">
+                        Cliquez sur le bouton <span class="uppercase text-sm md:text-lg font-semibold text-white">Rejoindre la
                             formation</span>
                     </p>
-                    <a href="https://wa.me/+237695863845"
+                    <a data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-up" href="https://wa.me/+237695863845"
                         class="bg-gradient-to-b to-black/60 from-[#E30065] font-poppins text-white font-bold py-2 px-4 rounded-tl-2xl rounded-br-2xl"
                         target="_blank" rel="noopener noreferrer">
                         Rejoindre la formation
@@ -22,7 +22,7 @@
         </div>
         <!-- Galerie d'images -->
         <div class="grid grid-cols-2 md:grid-cols-4">
-            <img v-for="(image, index) in images" :key="index" :src="image"
+            <img data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="zoom-in" v-for="(image, index) in images" :key="index" :src="image"
                 class="w-full h-80 object-cover cursor-pointer hover:opacity-80 transition"
                 @click="openModal(index)" />
         </div>

@@ -4,27 +4,27 @@
                 <div
                     class="w-full font-poppins flex flex-col items-center justify-center  space-y-4">
                    
-                    <div class="w-5/6 flex flex-col justify-center items-center space-y-4 ">
-                        <h1 class="text-6xl text-white font-poppins font-extrabold uppercase">PRIX FORMATION FBWA</h1>
-                        <h2 class="text-3xl text-white font-poppins font-bold uppercase">
-                            La promotion actuelle finit
+                    <div class="w-full lg:w-5/6 flex flex-col justify-center items-center space-y-2 pt-4 lg:pt-8">
+                        <h1 data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-up" class="text-sm sm:text-2xl md:text-2xl text-white font-poppins font-extrabold uppercase">La
+                            promotion actuelle finit
                             dans
-                        </h2>
-                        <div class=" flex justify-center items-center gap-4 font-bold text-white">
-                            <div v-for="(value, label) in countdown" :key="label"
+                        </h1>
+                        <div class=" flex flex-wrap justify-center items-center gap-2 sm:gap-4 font-bold text-white">
+                            <div data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="zoom-in" v-for="(value, label) in countdown" :key="label"
                                 class="text-center bg-blue-700/30  rounded-br-2xl rounded-tl-2xl space-y-2 px-4 py-4">
-                                <div class="text-xl bg-blue-800/20 rounded-br-2xl rounded-tl-2xl px-2 py-6">{{ value }}
+                                <div
+                                    class="text-lg sm:text-xl lg:text-2xl bg-blue-800/20 rounded-br-2xl rounded-tl-2xl px-2 py-6">
+                                    {{ value }}
                                 </div>
-                                <div class="text-sm uppercase tracking-wide">{{ label }}</div>
+                                <div class="text-sm lg:text-lg uppercase tracking-wide">{{ label }}</div>
                             </div>
                         </div>
-                        <p class="text-lg text-white font-poppins font-bold text-center">Dépêchez-vous !</p>
                     </div>
     
-                     <p class="text-gray-300 text-lg text-center">
+                     <p data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-up" class="text-gray-300 text-sm lg:text-lg text-center">
                        Suite aux différentes plaintes relatives à la classe sociale, la priorité d’assistance et l’exigence de certains membres, mon équipe et moi avons décidé de mettre en place 03 plans pour vous satisfaire au maximum selon votre classe sociale.
                     </p>
-                 <h3 class="text-2xl font-bold text-white text-center font-poppins">Veuillez s'il vous plaît sélectionner votre plan</h3>
+                 <h3 data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-up" class="text-lg lg:text-2xl font-bold text-white text-center font-poppins">Veuillez s'il vous plaît sélectionner votre plan</h3>
 
                 </div>
            
@@ -45,7 +45,7 @@ export default {
                 MINUTES: "00",
                 SECONDES: "00",
             },
-            targetDate: new Date("2025-08-10T23:59:59"), // 🎯 date de fin de la promo
+            targetDate: new Date("2025-08-13T23:59:59"), // 🎯 date de fin de la promo
             timer: null,
             currentIndex: 0,
             images: [img, img1, img2],
