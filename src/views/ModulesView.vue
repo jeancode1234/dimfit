@@ -2,18 +2,18 @@
     <div>
          <div class="w-full h-auto py-24" id="module">
              <div class="w-full lg:w-5/6 mx-auto space-y-4">
-                   <h1 data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-up" class="text-lg sm:text-2xl md:text-4xl text-white font-extrabold font-poppins uppercase text-center">LES MODULES de La formation FBWA</h1>
+                   <h1 data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="zoom-in" class="text-lg sm:text-2xl md:text-4xl text-white font-extrabold font-poppins uppercase text-center">LES MODULES de La formation FBWA</h1>
                    <div class="w-full xl:w-4/5 mx-auto p-4 space-y-6">
-                       <p data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-up" class="text-center text-white text-sm font-poppins">L’objectif de cette formation est de vous permettre d’avoir une grosse visibilité sur Facebook et décupler vos ventes. Vous saurez comment
+                       <p data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="zoom-in" class="text-center text-white font-poppins">L’objectif de cette formation est de vous permettre d’avoir une grosse visibilité sur Facebook et décupler vos ventes. Vous saurez comment
                          avoir des clients en automatique grâce à la publicité Facebook peu importe votre secteur d’activité.</p>
-                         <p data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-up" class="text-center text-white text-sm font-poppins">En appliquant mes stratégies depuis chez vous, vous ferez plus de ventes que d’habitude d’ici quelques jours ou semaines. 
+                         <p data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="zoom-in" class="text-center text-white font-poppins">En appliquant mes stratégies depuis chez vous, vous ferez plus de ventes que d’habitude d’ici quelques jours ou semaines. 
                             Vous économiserez votre budget publicitaire en ayant de forts résultats (des millions de francs par mois).</p>
                    </div>
              </div>
              <div class="w-full space-y-4 py-4">
                <div data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-up" class="w-5/6 md:w-3/6 h-[1px] bg-red-600"></div>
                <div class="w-full lg:w-3/6 mx-auto">
-                    <p data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="zoom-in" class="text-center text-white text-sm font-poppins">18 heures de Formation pour vous apprendre à créer 
+                    <p data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="zoom-in" class="text-center text-white font-poppins">18 heures de Formation pour vous apprendre à créer 
                         un véritable business en ligne et générer du trafic qui convertir grâce à Facebook et Instagram</p>
                </div>
              </div>

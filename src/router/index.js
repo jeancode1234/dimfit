@@ -17,6 +17,7 @@ import Footer from "@/views/FooterView.vue";
 import TemoignagesView from "@/views/TemoignagesView.vue";
 import ModulesView from "@/views/ModulesView.vue";
 import AllmodulesComponent from "@/components/AllmodulesComponent.vue";
+import AboutView from "@/views/AboutView.vue";
 
 const routes = [
   {
@@ -49,6 +50,13 @@ const routes = [
         components: {
           default: NavbarView,
           one: TemoignagesView,
+        },
+      },
+      {
+        path: "/qui-suis-je",
+        components: {
+          default: NavbarView,
+          one: AboutView,
         },
       },
       {

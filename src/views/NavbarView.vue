@@ -10,31 +10,31 @@
                 <nav class="flex items-center justify-center space-x-8">
 
                     <router-link to="/"
-                        class="block text-sm font-semibold font-poppins uppercase text-white hover:text-[#E30065] duration-200 focus:outline-none">
+                        class="block text-base font-semibold font-poppins uppercase text-white hover:text-[#E30065] duration-200 focus:outline-none">
                         <i class="fas fa-home"></i> Formation FBWA
                     </router-link>
                     <router-link to="/plans-fbwa"
-                        class="block text-sm font-semibold font-poppins uppercase text-white hover:text-[#E30065] duration-200 focus:outline-none">
+                        class="block text-base font-semibold font-poppins uppercase text-white hover:text-[#E30065] duration-200 focus:outline-none">
                         plans FBWA
                     </router-link>
                     <router-link to="/temoignages"
-                        class="block text-sm font-semibold font-poppins uppercase text-white hover:text-[#E30065] duration-200 focus:outline-none">
+                        class="block text-base font-semibold font-poppins uppercase text-white hover:text-[#E30065] duration-200 focus:outline-none">
                         témoignages
                     </router-link>
                     <router-link to="/modules"
-                        class="block text-sm font-semibold font-poppins uppercase text-white hover:text-[#E30065] duration-200 focus:outline-none">
+                        class="block text-base font-semibold font-poppins uppercase text-white hover:text-[#E30065] duration-200 focus:outline-none">
                         les modules
                     </router-link>
-                    <a href="https://wa.me/+237695863845" target="_blank"
-                        class="block text-sm font-semibold font-poppins uppercase text-white hover:text-[#E30065] duration-200 focus:outline-none">
+                    <a href="https://wa.me/+237686728929" target="_blank"
+                        class="block text-base font-semibold font-poppins uppercase text-white hover:text-[#E30065] duration-200 focus:outline-none">
                         contact
                     </a>
-                    <router-link to="/"
-                        class="block text-sm font-semibold font-poppins uppercase text-white hover:text-[#E30065] duration-200 focus:outline-none">
+                    <router-link to="/qui-suis-je"
+                        class="block text-base font-semibold font-poppins uppercase text-white hover:text-[#E30065] duration-200 focus:outline-none">
                         qui suis-je
                     </router-link>
                     <a href="https://www.youtube.com/@jeanhouafo3352" target="_blank" rel="noopener noreferrer"
-                        class="block text-sm font-semibold font-poppins uppercase text-white hover:text-[#E30065] duration-200 focus:outline-none">
+                        class="block text-base font-semibold font-poppins uppercase text-white hover:text-[#E30065] duration-200 focus:outline-none">
                         vidéos
                     </a>
                 </nav>
@@ -78,23 +78,23 @@
             <!-- Bouton fermer -->
             <div class="py-4 w-full flex flex-col space-y-4 ">
                 <div class="w-full border-b  border-red-800  duration-200 ">
-                    <router-link to="/" class=" p-4 font-poppins block hover:text-red-600 text-white text-lg uppercase">Formation
+                    <router-link @click="closeNav" to="/" class=" p-4 font-poppins block hover:text-red-600 text-white text-lg uppercase">Formation
                         fbwa</router-link>
                 </div>
                 <div class="w-full border-b border-red-800">
-                    <router-link to="/plans-fbwa" class="p-4 font-poppins block hover:text-red-600 text-white text-lg uppercase">Plans fbwa</router-link>
+                    <router-link  @click="closeNav" to="/plans-fbwa" class="p-4 font-poppins block hover:text-red-600 text-white text-lg uppercase">Plans fbwa</router-link>
                 </div>
                 <div class="w-full border-b border-red-800">
-                    <router-link to="/temoignages" class="p-4 font-poppins block hover:text-red-600 text-white text-lg uppercase">témoignages</router-link>
+                    <router-link  @click="closeNav" to="/temoignages" class="p-4 font-poppins block hover:text-red-600 text-white text-lg uppercase">témoignages</router-link>
                 </div>
                 <div class="w-full border-b border-red-800">
-                    <router-link to="/modules" class="p-4 font-poppins block hover:text-red-600 text-white text-lg uppercase">modules</router-link>
+                    <router-link  @click="closeNav" to="/modules" class="p-4 font-poppins block hover:text-red-600 text-white text-lg uppercase">modules</router-link>
                 </div>
                 <div class="w-full border-b border-red-800">
-                    <router-link to="/" class="p-4 font-poppins block hover:text-red-600 text-white text-lg uppercase">qui suis-je</router-link>
+                    <router-link  @click="closeNav" to="/qui-suis-je" class="p-4 font-poppins block hover:text-red-600 text-white text-lg uppercase">qui suis-je</router-link>
                 </div>
                 <div class="w-full border-b border-red-800 py-2">
-                    <router-link to="/" class="p-4 font-poppins block hover:text-red-600 text-white text-lg uppercase">vidéos</router-link>
+                    <router-link  @click="closeNav" to="/" class="p-4 font-poppins block hover:text-red-600 text-white text-lg uppercase">vidéos</router-link>
                 </div>
             </div>
         </div>

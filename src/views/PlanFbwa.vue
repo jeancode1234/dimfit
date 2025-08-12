@@ -5,14 +5,17 @@
 
             <!-- Couche sombre + contenu -->
             <div class=" inset-0 w-full  py-12 bg-gradient-to-b from-black/80 to-[#0E2F51]/50 bg-[#0E2F51]/60">
-                <div class="w-full lg:w-5/6 mx-auto font-poppins h-auto space-y-4 lg:space-y-8 px-4">
-                    <p data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-up"
-                        class="text-gray-300 text-sm lg:text-lg text-center">
+                <div class="w-full lg:w-5/6 mx-auto font-poppins h-auto space-y-4 lg:space-y-8 sm:px-4">
+                    <h1 data-aos="zoom-in"
+                        class="uppercase text-2xl lg:text-4xl xl:text-5xl text-white text-center font-poppins font-extrabold">
+                        Plans fbwa</h1>
+                    <p data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="zoom-in"
+                        class="text-gray-300  md:text-lg text-center">
                         La <strong> Formation FBWA</strong> à été mise à jour avec les meilleures stratégies de 2025 qui
                         vous permettront d’augmenter massivement vos ventes.
                     </p>
-                    <p data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-up"
-                        class="text-gray-300 text-sm lg:text-lg text-center">
+                    <p data-aos-easing="ease-in-out" data-aos-delay="200" data-aos-duration="1000" data-aos="zoom-in"
+                        class="text-gray-300 md:text-lg text-center">
                         Je l’ai améliorée pour pallier à tous les obstacles qu’ont rencontré les précédents membres
                         malgré
                         l’énorme succès de mes anciennes stratégies, cette nouvelle version 2025 est beaucoup plus
